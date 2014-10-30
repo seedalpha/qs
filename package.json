@@ -1,10 +1,12 @@
 {
   "name": "seed-qs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Querystring for node and browser",
   "main": "index.js",
   "scripts": {
-    "test": "zuul --phantom -- test.js"
+    "test": "zuul --phantom -- test.js",
+    "precommit": "npm test",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/seedalpha/qs",
   "devDependencies": {
+    "husky": "^0.6.1",
     "phantomjs": "^1.9.12",
     "zuul": "^1.13.0"
   }

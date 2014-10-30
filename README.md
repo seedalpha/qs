@@ -2,6 +2,16 @@
 
 Querystring decode / encode for node and browser
 
+### Changelog
+
+`1.0.1`:
+
+- Run tests before publish / commit
+
+`1.0.0`:
+
+- Initial release
+
 ### Installation
 
     $ npm install seed-qs --save
